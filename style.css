@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+html {
+    scroll-behavior: smooth; 
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background: #EEEEFF;
+}
+
+main{
+    margin: 10px;
+}
+
+#h2{
+    margin-bottom: 1rem;
+}
+
+button{
+    color: #ffffff;
+    background-color: #A06FDE ;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease background-color; 
+}
+button:hover{
+    background-color: #8346d2;
+}
+button:active{
+    background-color: #4b0d97;   
+}
+
+#icon{
+    width: 80%;
+    height: auto;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 2rem;
+    color: #D9BFFB;
+    font-weight: 500;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.intro_wrapper{
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.project_wrapper li {
+    text-decoration: none;
+    list-style: none
+}
+
+.project_wrapper li a img{
+    border-radius: 10px;
+}
+.project_wrapper{
+    margin: 10px 0;
+    overflow: hidden; 
+    
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+.project_wrapper li a img{
+    transition: transform .5s ease;
+}
+.project_wrapper:hover img{
+    transform: scale(1.1);
+
+}
+
+.wrapper_projects h3{
+
+    margin-top: 30px;
+}
+
+nav{
+    height:60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px #bbbbbbcd;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Contact Form Start */
+
+.container-contact-form{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.form-group input{
+    border-color: #B4A7FF;
+    height: 3rem;
+    border-radius: 5px;
+    border-width: thin;
+    margin-top: .5rem;
+}
+
+.form-group textarea{
+    border-color: #B4A7FF;
+    height: 6rem;
+    border-radius: 5px;
+    margin-top: .5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+.container-contact-form p{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.container-contact-form h3{
+    padding-top: 1.5rem;
+}
+
+input{
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+/* Contact Form End */
+
+/* Footer Start */
+footer div{
+
+    height:50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 4px #bbbbbbcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer End */
