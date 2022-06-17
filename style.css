@@ -3,12 +3,141 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
-html {
-    scroll-behavior: smooth; 
+li{
+    text-decoration: none;
+    list-style: none
 }
 
-button a{
+button{
+    border: none;
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth; 
+    min-height: 100vh;
+    width: auto;
+    margin: 0;
+}
+body{
+    min-height: 100vh; 
+    margin: 0;
+    display: grid;
+}
+
+/******************************* TOGGLE MENU START *******************************/
+
+header{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;  
+}
+
+header ul {
+    top: 70px;
+    bottom: 0; 
+    right: 0px;
+    transform: translateX(100%);
+    height: 1px;
+    width: 0px;
+  }
+
+  header li a{
+    color: transparent;
+  }
+
+  .show_menu{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0; 
+    top: 70px; 
+    z-index: -1;
+    background-color: white;
+    backdrop-filter: blur(2px);
+    transition: transform .4s ease-in;
+    transform: translateX(0);
+  }
+
+  .show_menu li a{
+    color: white;
+    font-size: 1rem;
+}
+
+.show_menu li{
+    border-bottom: 1px solid white;
+    padding: .6rem;
+    margin-left: 3%;
+    margin-right: 3%;  
     text-decoration: none;
+    list-style: none
+    
+}
+
+.show_menu nav ul .li-hide{
+    display: block;
+}
+.li-hide{
+    display: none;
+}
+
+.show_menu li:hover{
+    background-color: rgba(169,203,239,.3);
+}
+
+.show_menu li a{
+    color: black;
+}
+
+/******************************* TOGGLE MENU END *******************************/
+
+/******************************* INDEX START *******************************/
+header{
+    display: flex;
+    height:70px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px #bbbbbbcd;
+}
+
+nav{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+header .logo{
+    width: 45px;
+    height: 45px;
+}
+
+#menu_button{
+    color: rgb(20, 0, 26); 
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu_button a{
     color: white;
 }
 
@@ -23,13 +152,14 @@ body{
 
 main{
     margin: 10px;
+    margin-top: 70px;
 }
 
 #h2{
     margin-bottom: 1rem;
 }
 
-button{
+.cta{
     color: #ffffff;
     background-color: #A06FDE ;
     border: none;
@@ -43,10 +173,11 @@ button{
     cursor: pointer;
     transition: .3s ease background-color; 
 }
-button:hover{
+
+.cta:hover{
     background-color: #8346d2;
 }
-button:active{
+.cta:active{
     background-color: #4b0d97;   
 }
 
@@ -67,12 +198,15 @@ h2{
 }
 h3{
     font-size: 1.5rem;
+    padding: 1rem 0rem;
 }
 
 .intro_wrapper{
     background-color: #FFFFFF;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
 }
 
 .project_wrapper li {
@@ -83,32 +217,30 @@ h3{
 .project_wrapper li a img{
     border-radius: 10px;
 }
+
+.project_wrapper li a{
+    display: flex;
+}
+
 .project_wrapper{
     margin: 10px 0;
     overflow: hidden; 
-    
     border-radius: 10px;
-    /* border: 1px solid red; */
 }
+
 .project_wrapper li a img{
     transition: transform .5s ease;
+    border-radius: 10px;
 }
-.project_wrapper:hover img{
-    transform: scale(1.1);
 
+.project_wrapper img:hover {
+    transform: scale(1.1);
 }
 
 .wrapper_projects h3{
-
     margin-top: 30px;
 }
 
-nav{
-    height:60px;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0px 0px 5px #bbbbbbcd;
-}
 
 section{
     align-items: center;
@@ -116,12 +248,13 @@ section{
     flex-direction: column;
 }
 
-/* Contact Form Start */
+/******************************* CONTACT FORM START *******************************/
 
 .container-contact-form{
     background-color: #fff;
     padding: 15px;
     border-radius: 5px;
+    margin: 1.5rem 0 0 0 ;
 }
 
 .form-group{
@@ -148,6 +281,7 @@ section{
     padding-left: 10px;
     padding-top: 10px;
     font-size: 1rem;
+    max-width: 100%;
 }
 
 .container-contact-form p{
@@ -164,18 +298,335 @@ input{
     font-size: 1rem;
 }
 
-/* Contact Form End */
+/******************************* CONTACT END *******************************/
 
-/* Footer Start */
-footer div{
 
-    height:50px;
+/******************************* INDEX END *******************************/
+
+
+
+/******************************* FOOTER START *******************************/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    height:90px;
     width: 100%;
     background-color: white;
     box-shadow: 0px 0px 4px #bbbbbbcd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-/* Footer End */
+.social_links_wrapper a{
+    color: #a77cfd;
+    transition: transform .5s ease;
+}
+
+.social_links_wrapper a:hover{
+    color: #5400d1;
+}
+
+.social_links_wrapper a i{
+    padding: 1rem;
+}
+
+.footer_wrapper{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.rights_reserved{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    color: #3d3d3d;
+}
+/******************************* FOOTER END *******************************/
+
+
+/******************************* ABOUT START *******************************/
+
+#about_wrapper, #about_wrapper_tablet{
+    background-color: white;
+    /* margin: 10px; */
+    border-radius: 10px;
+}
+
+#diana_picture{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;  
+}
+.about_text{
+    margin: 10px;
+    padding-bottom: 1rem;
+}
+.about_text h2{
+    color: black;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+.about_text h2 b{
+color: #C20137;
+}
+
+#hand{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cv_button{
+    color: #ffffff;
+    background-color: #C20137 ;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease background-color; 
+}
+
+.cv_button:hover{
+    background-color: #b30033 ;
+}
+
+.cv_button:active{
+    background-color: #fd356e ;
+}
+
+#cv{
+    padding: 1rem;
+}
+
+#about_wrapper_tablet{
+    display: none;
+}
+/******************************* ABOUT END *******************************/
+
+
+
+
+/****************************************************************************/
+
+/******************************* TABLET START *******************************/
+
+@media only screen and (min-width: 750px) {
+    
+    /******************************* INDEX START *******************************/
+
+    main{
+        margin: 20px;
+    }
+    
+    .intro_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem;
+    }   
+
+    .wrapper_2{
+       order: 1;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    #icon{
+        order: 2;
+    }
+
+    .wrapper_2 a button{
+        text-align: left;
+        display: inline-block;
+    }
+
+    /* Projects Start */
+
+    .project_links_wrapper{
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5rem;
+        align-items: center;
+    }
+
+     #icon{
+         width: 100%;
+     }
+    .project_wrapper{
+        margin: 0rem;
+    }
+
+    /* Projects End */
+
+    /* Contact Form */
+
+    #contact-home{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem;
+        gap: 1rem;
+    }
+
+    #messsage{
+        grid-column: 1 / -1;
+    }
+
+    /* Contact Form End */
+    /******************************* INDEX END *******************************/
+    /******************************* ABOUT START *******************************/
+   
+
+    #about_wrapper_tablet{
+        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 4rem;
+    }
+
+    #about_wrapper{
+        display: none;
+    }
+
+    div#cv{
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .cv_button{
+        margin: 1rem 0 0 0;
+    }
+
+    div#about_wrapper {
+        padding: 4rem;
+    }
+    .about_text{
+        margin: auto;
+        padding-bottom: 0rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: self-start;
+    }
+
+    img#diana_picture{
+        width: 90%;
+    } 
+
+    #hand{
+        padding: 0;
+    }
+
+    #menu li a:hover{
+        color: #5400d1;
+        font-weight: 700;
+
+    }
+
+    /* nav tablet  start */
+
+   header{
+        position: sticky;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_wrapper {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    #menu_button{
+        display: none;
+    }
+
+
+    .header_wrapper ul{
+        top: 70px;
+        bottom: 0; 
+        right: 0px;
+        transform: translateX(0);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .header_wrapper ul li a{
+        color: black;
+
+    }
+
+    ul#menu{
+        display: flex;
+        gap: 2rem;
+        order: 1;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .header_wrapper nav{
+        width: auto;
+        padding: 0 20px;
+    }
+
+    /* nav tablet  end */
+
+  }
+    
+
+
+
+/******************************* TABLET END *******************************/
+
+/******************************* DESKTOP START *******************************/
+
+@media only screen and (min-width: 1000px) {
+
+    #about_wrapper_tablet, .intro_wrapper {
+        max-width: 1100px;
+        margin:auto;
+    }
+
+    .wrapper_projects, .contact_form_wrapper{
+        max-width: 1220px;
+        margin:auto;
+    }
+
+    img#diana_picture{
+        width: 70%;
+    } 
+
+    #icon{
+        width: 90%;
+        height: auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 1300px){
+     /* nav start*/
+
+     ul#menu{
+        padding-right: 20px;
+    }
+
+    header nav{
+        padding: 0 60px;
+    }
+
+    .header_wrapper {
+        width: 1265px;
+    }
+
+    /* nav end*/
+
+}
