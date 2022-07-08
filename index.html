@@ -21,9 +21,9 @@
 
         <div class="header_wrapper">
             <ul id="menu">
-                <li><a href="index.html#projects">Projects</a></li>
+                <li id="projects_link"><a href="#projects">Projects</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li id="contact_link"><a href="#contact">Contact</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
 
@@ -50,18 +50,59 @@
     <div class="wrapper_projects">
         <h3 id="projects">Projects</h3>
         <div class="project_links_wrapper">
-            <div class="project_wrapper">
-                <li><a href="projects/sift.html"><img src="img/sift.png" alt="phone mockup"></a></li>
+
+            <div class="project_main_wrapper">
+
+                <div class="project_wrapper">
+                    <li><a href="projects/sift.html"><img src="img/sift.png" alt="phone mockup"></a></li>
+                </div>
+                <div class="project_text_wrapper">
+                    <p class="ilatic">iOS Native Mobile Application</p>
+                    <h4><li><a href="projects/sift.html">Sift</a></li></h4>
+                    <p>Sift is a mobile application that helps users make informed recycling decisions through locating convenient recycling centres</p>
+                </div>
             </div>
-            <div class="project_wrapper">
-                <li><a href="projects/vita.html"><img src="img/vita.png" alt="phone mockup"></a></li>
+
+            <div class="project_main_wrapper">
+
+                <div class="project_wrapper">
+                    <li><a href="projects/vita.html"><img src="img/vita.png" alt="phone mockup"></a></li>
+                </div>
+
+                <div class="project_text_wrapper">
+                    <p class="ilatic">Data-Driven Responsive Web Application</p>
+                    <h4><li><a href="projects/vita.html">Vita</a></li></h4>
+                    <p>Vita is a data-driven web platform that helps users learn about vitamins and minerals that come from natural sources</p>
+                </div>
             </div>
-            <div class="project_wrapper">
-                <li><a href="projects/playday.html"><img src="img/playday.png" alt="phone mockup"></a></li>
+
+            <div class="project_main_wrapper">
+
+                <div class="project_wrapper">
+                    <li><a href="projects/playday.html"><img src="img/playday.png" alt="phone mockup"></a></li>
+                </div>
+
+                <div class="project_text_wrapper">
+                    <p class="ilatic">API Integrated Responsive Web Application</p>
+                    <h4><li><a href="projects/playday.html">PlayDay</a></li></h4>
+                    <p>PlayDay is a progressive web application that connects team players and sport courts together based on the user location</p>
+                </div>
             </div>
-            <div class="project_wrapper">
-                <li><a href="projects/aliexpress.html"><img src="img/aliexpress.png" alt="phone mockup"></a></li>
+
+            <div class="project_main_wrapper">
+
+                <div class="project_wrapper">
+                    <li><a href="projects/aliexpress.html"><img src="img/aliexpress.png" alt="phone mockup"></a></li>
+                </div>
+
+                <div class="project_text_wrapper">
+                    <p class="ilatic">UX Case Study</p>
+                    <h4><li><a href="projects/puls.html">Brightspace Pulse</a></li></h4>
+                    <p>Brightspace Pulse is a mobile app for students and instructors that helps them to stay connected and on track with courses</p>
+                </div>
             </div>
+
+                
         </div>
     </div>
 
@@ -78,17 +119,17 @@
 
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required="required">
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required="required">
                 </div>
 
                 <div class="form-group" id="messsage">
                     <label for="massage">Message</label>
-                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" required="required"></textarea>
                 </div>
 
                 <button type="submit" id="submit-button" class="cta">Submit</button>
@@ -109,7 +150,7 @@
             <a href="https://www.behance.net/dianamalynovska1" atl="Behance"><i class="fa-brands fa-behance fa-lg"></i></a>
         </div>
         <div class="rights_reserved">
-             <p>© 2022 Diana Malynovska - All rights reserved.</p>
+             <p>Proudly Coded & Designed by Diana Malynovska - © 2022 All rights reserved</p>
         </div>
     </div>
 
