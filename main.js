@@ -41,3 +41,28 @@ projects.addEventListener('click', function(){
 
 
 
+$(function(){
+    var scroll = $(document).scrollTop();
+    var navHeight = $('.header').outerHeight();
+
+    $(window).scroll(function(){
+        var scrolled = $(document).scrollTop();
+
+        if(scrolled > navHeight){
+            $('.header').addClass('animate');
+        }else{
+            $('.header').removeClass('animate');
+        }
+
+        if(scrolled > scroll){
+            $('.header').removeClass('sticky');
+        }else{
+            $('.header').addClass('sticky');
+        }
+
+        scroll = $(document).scrollTop();
+
+    });
+
+
+});

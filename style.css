@@ -61,6 +61,23 @@ header{
     width: 100%;
 }
 
+/* animation for nav start*/
+
+.header{
+    transition: top .6s ease-in-out;
+}
+
+.header.animate.sticky{
+    top: 0px;
+   
+}
+
+.header.animate{
+    top: -75px;
+}
+
+/* animation for nav end */
+
 header ul {
     top: 70px;
     bottom: 0; 
@@ -289,6 +306,7 @@ section{
 
 .project_main_wrapper li a{
     color: #8640A9;
+    transition: top .6s ease-in-out;
 }
 .project_main_wrapper li a:hover{
     color: #220091;
@@ -603,7 +621,7 @@ color: #C20137;
     div#about_wrapper {
         padding: 4rem;
     }
-    
+
     .about_text{
         margin: auto;
         padding-bottom: 0rem;
