@@ -1,32 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a85c5c3a8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="sift_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js" defer></script>
+    <script src="/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
- 
-    <title>Sift Project</title>
+   
+    <title>Diana Malynovska Portfolio</title>
 
 </head>
-<body>
-    <header>
-        <nav>
-    
-        </nav>
+
+<body id="body">
+
+    <header class="header">
+
+        <div class="header_wrapper">
+            <ul id="menu">
+                <li id="projects_link"><a href="/index.html#projects">Projects</a></li>
+                <li><a href="/resume.html">Resume</a></li>
+                <li id="contact_link"><a href="/index.html#contact">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+
+            <nav>
+                <a href="/index.html"><div class="logo"><img src="/img/logo.svg" alt="logo"></div></a>
+                <button id="menu_button"><i class="fa-solid fa-bars fa-2x"></i></button>
+            </nav>
+        </div>
+        
     </header>
-    <main>
 
-    </main>
+<main class="sift">
+<div class="cover"> </div>
 
-    <footer>
-        <div><p>Diana Malynovska  © 2022 All Rights Reserved.</p></div>
+<div class="sift_margins">
+
+    <div class="about_main_wrapper">
+
+        <div class="sift_about_wrapper">
+            <h1 class="sift_h1">About Sift </h1>
+            <p>Sift is a waste management mobile application that educates users on how to recycle items correctly. This MVP focuses on recycling rules and regulations in Vancouver, BC area.</p>
+
+            <h3>Project information</h3>
+            <div class="project_info_wrapper">
+                <p class="bold">Duration:</p>
+                <p>12 weeks</p>
+                <p class="bold">My role:</p>
+                <p>Project Manager & UX Designer</p>
+                <p class="bold">Team size:</p>
+                <p>3 Developers & 4 Designers</p>
+                <p class="bold">Platform:</p>
+                <p>Mobile Application</p>
+            </div>
+        </div>
+        <div><img src="/img/sift/sift_about_img.png" alt="phone mockup"></div>
+
+    </div>
+
+    <div class="section_line"></div>
+
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper">
+            <h2>Project Outline</h2>
+            <p>Sift is an educational waste management mobile application that helps users make informed recycling decisions by locating convenient recycling centers, filtering search functions, and allowing for further education with an object scanning feature. The application clearly explains which items go into which bins. Since the project focuses on the Vancouver area, it will comply with the recycling regulations in this area. </p>
+        </section>
+        <section class="section_wrapper">
+            <h2>My Role</h2>
+            <p>In this project, I was the project manager and a UX designer. I was responsible for planning weekly sprints, conducting primary and secondary research, analyzing data gathered from surveys, creating personas, designing user flow, and making wireframes for the object recognition feature and home page. I was also in change of creating <a href="#">promotional video </a>and marketing assets.</p>
+        </section>
+    </div>
+
+    <div class="sift_block_main_wrapper the_process_wrapper">
+        <section class="section_wrapper h2_process">
+            <h2>The Process</h2>
+        </section>
+        <section class="section_wrapper sections_wrapper_process">
+            <p>In this project we followed human-centered design process starting from primary and secondary research. We used Miso and InVision for brainstorming our ideas, analyzing the data gathered the from the research and locking the features of the application. </p>
+            <img class="process" src="/img/sift/sift_process.png" alt="process">
+        </section>
+    </div>
+
+    <div class="section_line_dotted"></div>
     
-    </footer>
 
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper img_padding">
+            <h2>Design Plan</h2>
+            <img src="/img/sift/sift_desing plan.png" alt="design plan">
+            <p>Our team consisted of 7 people and to be more productive, we decided to create a separate plan for developers and designers. I was the project manager and hence in charge of planning the project.  For design plan I worked colsely with a desig lean to plan our weekly sprints.</p>
+        </section>
+        <section class="section_wrapper img_padding">
+            <h2>Development Plan</h2>
+            <img src="/img/sift/sift_dev_plan.png" alt="development plan">
+            <p>We had to keep the development plan not very precise since most of the work would be dependent on the design team. I worked closely with the dev lead to plan and understand what features we will be able to deliver within a given timeframe.</p>
+        </section>
+    </div>
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper">
+            <h2>Research</h2>
+            <p>People do not know how to recycle their waste correctly, what can be recycled or what to do with it.</p>
+            <p>" One of the biggest challenges for recycling programs is dealing with the garbage or other non-recyclable materials that end up in the system." -CBC News</p>
+            <p>After conducting secondary research and  a survey our team found out that 70% of people are not sure how to recycle most of their garbage and this is why they put everything in general waste.</p>
+        </section>
+        <section class="section_wrapper">
+            <div class="grey_container">
+                <img class="research" src="/img/sift/sift_research.png" alt="research">
+                <p class="research_link"></p><li id="research_link"><a href="http://www.metrovancouver.org/services/solid-waste/SolidWastePublications/2018_Annual_Recycling_and_Solid_Waste_Management_Summary.pdf">Image Source: Metrovancouver.org</a></li></p>
+            </div>
+        </section>
+    </div>
+    <div class="sift_block_main_wrapper_features">
+        <section class="section_wrapper_features_h2">
+            <h2>The Features</h2>
+        </section>
+        <section class="section_wrapper_features">
+            <div class="features_container">
+                <img src="/img/sift/sift_feature_scan.png" alt="icon for search">
+                <h3>Scan Objects</h3>
+                <p>You can scan an object with your camera, the application can identify different materials and will tell you how to recycle them correctly.</p>
+            </div>
+            <div class="features_container">
+                <img src="/img/sift/sift_feature_center.png" alt="icon for centers">
+                <h3>Find Centers</h3>
+                <p>Local recycling centers can be found near you, where you can bring items that can't be easily disposed of.</p>
+            </div>
+            <div class="features_container">
+                <img src="/img/sift/sift_feature_search.png" alt="icon for search">
+                <h3>Search Items</h3>
+                <p>You can search by the item name and get some options on how this item can be recycled in the Vancouver BC area.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper img_padding">
+            <h2>Competitors Research</h2>
+            <img src="/img/sift/sift_competitors.png" alt="competitors table">
+        </section>
+        <section class="section_wrapper">
+            <h2>Tools</h2>
+            <div class="grey_container tools">
+                <img src="/img/sift/sift_tools.png" alt="tools icons">
+            </div>
+        </section>
+    </div>
+    <div class="sift_block_main_wrapper">
+        <h2>Perosnas</h2>
+        <section class="section_wrapper_personas">
+            <img src="/img/sift/sift_persona_kathy.png" alt="persona">
+            <img src="/img/sift/sift_persona_lucas.png" alt="persona">
+            <img src="/img/sift/sift_persona_maya.png" alt="persona">
+        </section>
+    </div>
+    <div class="sift_block_main_wrapper user_flow">
+        <h2>User Flow</h2>
+        <img src="/img/sift/sift_user_flow.png" alt="user flow">
+        <section class="section_wrapper">
+            <p>For the project scope we had 4 main features: serach by object name (by using open sourse API), search by location (using google maps), scan by object (trained our own image recognition model) and profile where users can earn badges and earn points for recycling correctly.</p>
+            <p>We wanted the application to be engaging and intuitive to use, which is why on every page there was a call-to-action button to the next feature for the user to try out and see if it is more convenient for them.</p>
+        </section>
+    </div>
+
+    <div class="sift_block_main_wrapper wireframes">
+        <h2>Wireframes</h2>
+        <div class="section_wrapper_wireframes_4">
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li><a href="#">1. Sign in</a></li>
+                    <img src="/img/sift/wf/sift_login_wf.png" alt="log in screen">
+                </div>
+                <div>
+                    <li id="home_wf"><a href="#">2. Home</a></li>
+                    <img src="/img/sift/wf/sift_home_wf.png" alt="home screen">
+                </div>
+            </section>
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li id="search_item"><a href="#">3. Search by itme name</a></li>
+                    <img src="/img/sift/wf/sift_search_wf.png" alt="search screen">
+                </div>
+                <div>
+                    <li><a href="#">4. Result for organic </a></li>
+                    <img src="/img/sift/wf/sift_organic_wf.png" alt="result screen">
+                </div>
+            </section>
+        </div>
+
+        <div class="section_wrapper_wireframes_4">
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li id="result_not_found"><a href="#">5. Camera result not found</a></li>
+                    <img src="/img/sift/wf/sift_camera_wf.png" alt="camera screen">
+                </div>
+                <div>
+                    <li><a href="#">6. Camera result page</a></li>
+                    <img src="/img/sift/wf/sift_recycling_wf.png" alt="home screen">
+                </div>
+            </section>
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li><a href="#">7. Search result page</a></li>
+                    <img src="/img/sift/wf/sift_tv_wf.png" alt="search result screen">
+                </div>
+                <div>
+                    <li><a href="#">8. Profile</a></li>
+                    <img src="/img/sift/wf/sift_profile_wf.png" alt="profile screen">
+                </div>
+            </section>
+        </div>
+        <div class="text_decrtiption_wrapper">
+            <p><a href="#home_wf">Home screen</a> is where the user will land after signing up for the application. Welcome to Sift section has two call to action buttons for the scan and search feature. For the monetization purposes there is a promotion section where environmentally friendly businesses can request to place an advertisement. Did you know section will display fun facts to educate the users about recycling. </p>
+            <p><a href="#search_item">Search by item name</a> offers two ways of searching: by popular search or by the name of an item: eg. Avalon milk bottle. In the next face we want to add barcode recognition. <a href="#result_not_found">Camera results not found </a> page will be shown when the object recognition feature will not have a result to show, in that case we will have CTA for the search by word feature.</p>
+        </div>
+
+    </div>
+
+    <div class="sift_block_main_wrapper high_fidelity_screens">
+        <h2>High Fidelity Screens</h2>
+        <div class="section_wrapper_wireframes_4">
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li><a href="#">1. Home </a></li>
+                    <img src="/img/sift/hf/sift_home_hf.png" alt="home screen">
+                </div>
+                <div>
+                    <li><a href="#">2. Search by itme name </a></li>
+                    <img src="/img/sift/hf/sift_search_hf.png" alt="search screen">
+                </div>
+            </section>
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li id="results_organic"><a href="#hf_text">3. Result for organic </a></li>
+                    <img src="/img/sift/hf/sift_organic_hf.png" alt="search results screen">
+                </div>
+                <div>
+                    <li id="results_plastic"><a href="#hf_text">4. Result for the plastic item</a></li>
+                    <img src="/img/sift/hf/sift_plastic_hf.png" alt="plastic screen">
+                </div>
+            </section>
+        </div>
+
+        <div class="section_wrapper_wireframes_4">
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li id="complex_item"><a href="#hf_text">5. Complex item result</a></li>
+                    <img src="/img/sift/hf/sift_tim_hf.png" alt="result screen">
+                </div>
+                <div>
+                    <li><a href="#">6.Camera result simple item</a></li>
+                    <img src="/img/sift/hf/sift_scan_blue_hf.png" alt="result screen">
+                </div>
+            </section>
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li id="new_user_profile"><a href="#hf_text">7. New user pofile</a></li>
+                    <img src="/img/sift/hf/sift_profile_new_hf.png" alt=" profile screen">
+                </div>
+                <div>
+                    <li><a href="#">8. Profile</a></li>
+                    <img src="/img/sift/hf/sift_profile_used_hf.png" alt="profile screen">
+                </div>
+            </section>
+        </div>
+        <div class="section_wrapper_wireframes_4">
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li id="camera_not_found"> <a href="#hf_text">9. Camera result not found</a></li>
+                    <img src="/img/sift/hf/sift_oops_hf.png" alt=" result not found">
+                </div>
+                <div>
+                    <li><a href="#rec_locations">10. Recycling Locations</a></li>
+                    <img src="/img/sift/hf/sift_locations_hf.png" alt="locations screen">
+                </div>
+            </section>
+            <section class="section_wrapper_wireframes_2">
+                <div>
+                    <li><a href="#">11. Locations result</a></li>
+                    <img src="/img/sift/hf/sift_location_single_hf.png" alt="locations list screen">
+                </div>
+                <div>
+                    <li><a href="#">12. Single location result</a></li>
+                    <img src="/img/sift/hf/sift_location_single_open_hf.png" alt="single location screen">
+                </div>
+            </section>
+        </div>
+        <div class="text_decrtiption_wrapper" id="hf_text">
+            <p><a href="#results_organic"> Result for organic </a> does not have an option to find a recycle center because there is no place where you can bring your organic waste in person. This is why we have a link to “how to create a compost bin” article to educate the users about organic waste and how to dispose of it correctly. <a href="#results_plastic">Result for plastic item</a> page has two scenarios, either the user can find a blue bin nearby or they can take their plastic items to a recycling station. As we can not predict how the users will take a picture, there is a <a href="#camera_not_found">camera result not found</a> screen that has some tips on how to take a better picture.</p>
+            <p><a href="#complex_item">Complex item result</a> shows a result for an object that has more than one material. We trained our mode for the Tim Hortons cup by uploading around 200 pictures of this cup from different perspectives and with different lighting to train the object recognition mode. <a href="new_user_profile#">New user profile</a> page shows how the profile page will look for a new user who did not earn any badges and scanned any objects. <a href="#rec_locations">The Recycling Centres Locations</a> screen uses geolocation to show nearby recycling centers. In cases when the geolocation is not working the user can input their address manually to search for the nearby recycling centre. </p>
+        </div>
+    </div>
+
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper">
+            <h2>App Logo</h2>
+            <p>Sift's logo is a combination of two geometric shapes, which are similar in appearance, but  with different levels of opacity. The logo conveys the idea that many items migh be made from similar materils but have to be recycled differently. </p>
+            <img src="/img/sift/sift_logo.png" alt="logo design">
+        </section>
+        <section class="section_wrapper">
+            <h2>Typography</h2>
+            <p>The Lato typeface was chosen for the application because it is a sans-serif typeface that gives the application a modern appearance. This typeface is very readable across various screen sizes, resolutions, and media types, which increases legibility. </p>
+            <img src="/img/sift/sift_typography.png" alt="typography icons">
+        </section>
+    </div>
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper">
+            <h2>Color Palette</h2>
+            <p>The chosen colors for Sift convey the meaning of cleanliness and awareness about environment protection.</p>
+            <img src="/img/sift/sift_color_palette.png" alt="logo design">
+        </section>
+        <section class="section_wrapper">
+            <h2>UI: Buttons & Nanvigation</h2>
+            <p>We use curves and a light gradient to direct users' attention and convince them to press the scan button, the app's key feature.</p>
+            <img src="/img/sift/sift_ui.png" alt="ui icons">
+        </section>
+    </div>
+
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper illustrations_space">
+            <h2>Illustrations</h2>
+            <p>The design team created a set of illustrations and icons for making the recycling instructions more clear and conveying the problem that the application is trying to solve.</p>
+            <img src="/img/sift/sift_big_illustration_1.png" alt="illustration 1">
+        </section>
+        <section class="section_wrapper icons_5">
+        <img src="/img/sift/sift_illustrations_ui.png" alt="illustration set">
+        </section>
+        <section class="section_wrapper">
+            <img src="/img/sift/sift_big_illustration_2.png" alt="illustration 2">
+        </section>
+        <section class="section_wrapper">
+            <img src="/img/sift/sift_big_illustration_3.png" alt="illustration 3">
+        </section>
+    </div>
+
+    <div class="sift_block_main_wrapper">
+        <h2>System Architecture</h2>
+        <p>One of the requirements was to make the app accessible to both Android and IOS users, that's why we built it with React Native. This diagram shows how the application works on the front and the back-end.</p>
+    </div>
+    <div class="sift_block_main_wrapper system_ar">
+        <img src="/img/sift/sift_system_architecture.png" alt="system architecture">
+    </div>
+    <div class="sift_block_main_wrapper">
+        <h2>Promotional Video</h2>
+        <p>This is the promotional video that I have created for the promotion and the final presentation of the Sift project. I used illustrator to edit and separate the layers of the illustrations created by the design team. I used Premier Pro to edit the video and adding the sound effects.</p>
+        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/dA7S2AF4tL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="sift_block_main_wrapper promo_meterial">
+        <h2>Promotional Materials</h2>
+        <p>This is a LinkedIn promotional banner and the one page hand out leaflet that I have created for our project. Each designer created a different version, we did design critique, improved our version and then voted for the best one.</p>
+        <div>
+            <img src="/img/sift/sift_promo_linkedin.png" alt="promo material">
+            <img src="/img/sift/sift_promo_handout.png" alt="promo material">
+        </div>
+    </div>
+
+    <div class="sift_block_main_wrapper future_r_map">
+        <h2>Future RoadMap</h2>
+        <section class="section_wrapper">
+            <p>If our team was to continue with this project in the future we would focus on other steps, such as tracking most scanned items to understand what users find confusing to recycle, expanding the list of recognized materials and trying to collaborate with charities to promote their services in our application. We would also focus on expending available badges and adding some value to them (eg. points that can be used for discounts in environmentally friendly stores) to motivate the users to use the application.</p>
+            <img src="/img/sift/sift_roadmap.png" alt="">
+        </section>
+    </div>
+
+    <div class="section_line_dotted"></div>
+
+    <div class="sift_block_main_wrapper">
+        <section class="section_wrapper">
+            <h2>Retrospective</h2>
+            <p>Overall, I am pleased with the project's outcome. As a project manager, I prepared for meetings meticulously to ensure they are efficient and allow each member of the team time to share their ideas. Sometimes we had different opinions in the design process. To select the best design solution, each designer pitched their idea and the team voted for the strongest presentation. The camera and the search features that I was working on had 3 major iterations due to the constraints from the developers as not everything that we planned was possible to implement within the given time frame. This experience has taught me why I must be very flexible as a designer and not be afraid to come up with new ideas. </p>
+        </section>
+        <section class="section_wrapper">
+            <h2>What can be improved</h2>
+            <p>I believe our team was very successful in working together, meeting all the deadlines on time and clearly communicating with each other. One of the areas where we could improve was spending more time planning our design process. While creating the wireframes, we had four designers working on different features of the application, and unfortunately we did not consider creating components to make it faster and easier. However we learned our lesson and when we were creating high fidelity screens we created all the necessary components which resulted in efficient and consistent designs</p>
+        </section>
+    </div>
+
+</div>
+
+    <section class="see_other_projects">
+        <h2>See Other Projects</h2>
+        <div class="project_links">
+
+            
+            <div class="project_main_wrapper"> 
+                <li><a href="vita.html">
+                    <div class="project_wrapper">
+                        <img src="/img/vita.png" alt="phone mockup">
+                    </div>
+                    <div class="project_text_wrapper">
+                        <p class="ilatic">Data-Driven Responsive Web Application</p>
+                        <h4>Vita</h4>
+                        <p>Vita is a data-driven web platform that helps users learn about vitamins and minerals that come from natural sources</p>
+                    </div>
+                </a></li>
+            </div>
+
+            <div class="project_main_wrapper" id="play_day_display_none">
+                <li><a href="playday.html">
+                    <div class="project_wrapper">
+                    <img src="/img/playday.png" alt="phone mockup">
+                    </div>
+
+                    <div class="project_text_wrapper">
+                        <p class="ilatic">API Integrated Responsive Web Application</p>
+                        <h4>PlayDay</h4>
+                        <p>PlayDay is a progressive web application that connects team players and sport courts together based on the user location</p>
+                    </div>
+                </a></li>
+            </div>
+
+            <div class="project_main_wrapper" id="ux_display_none">
+                <li><a href="ux.html">
+                    <div class="project_wrapper">
+                        <img src="/img/ux_puls.png" alt="phone mockup">
+                    </div>
+
+                    <div class="project_text_wrapper">
+                        <p class="ilatic">UX Case Study</p>
+                        <h4>Brightspace Pulse</h4>
+                        <p>Brightspace Pulse is a mobile app for students and instructors that helps them to stay connected and on track with courses</p>
+                    </div>
+                </a></li>
+            </div>
+        
+
+        </div>
+
+    </section>
+
+
+
+
+
+</main>
+<footer>
+    <div class="footer_wrapper">
+        <div class="social_links_wrapper">
+            <a href="https://github.com/diana309" atl="Github"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/malynovska-diana/" atl="Linkedin"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            <a href="https://www.behance.net/dianamalynovska1" atl="Behance"><i class="fa-brands fa-behance fa-lg"></i></a>
+        </div>
+        <div class="rights_reserved">
+             <p>Proudly Coded & Designed by Diana Malynovska - © 2022 All rights reserved</p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
 </body>
-</html>
+</html> 

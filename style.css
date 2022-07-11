@@ -103,7 +103,7 @@ header ul {
     top: 70px; 
     z-index: -1;
     background-color: white;
-    transition: transform .4s ease-in;
+    transition: transform .2s ease-in;
     transform: translateX(0);
   }
 
@@ -268,7 +268,7 @@ h3{
     border-radius: 10px 10px 0 0;
 }
 
-.project_wrapper li a img{
+.project_wrapper img{
     transition: transform .5s ease;
     border-radius: 10px 10px 0 0;
 }
@@ -302,15 +302,11 @@ section{
 .project_main_wrapper h4{
     font-size: 22px;
     padding: 5px 0 2px 0;
+    color: #4b0d97;
 }
 
 .project_main_wrapper li a{
-    color: #8640A9;
     transition: top .6s ease-in-out;
-}
-.project_main_wrapper li a:hover{
-    color: #220091;
-    text-decoration: underline;
 }
 
 .project_text_wrapper{
@@ -319,6 +315,15 @@ section{
 
 .ilatic{
     font-style: italic;
+    color: #3d3d3d;
+}
+
+.project_text_wrapper p{
+    color: #3d3d3d;
+}
+.project_text_wrapper h4:hover{
+    color: #8400d1;
+    text-decoration: underline;
 }
 
 /******************************* CONTACT FORM START *******************************/
@@ -416,6 +421,9 @@ footer {
     font-size: 0.8rem;
     padding-top: 10px;
     color: #3d3d3d;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /******************************* FOOTER END *******************************/
 
@@ -554,6 +562,9 @@ color: #C20137;
 
     .project_text_wrapper{
         padding: 20px 10px 20px 20px;
+    }
+    .project_text_wrapper p{
+        color: #3d3d3d;
     }
 
 
