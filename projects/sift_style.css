@@ -1,5 +1,5 @@
 .sift .cover{
-  background: url(/img/sift/sift_cover.png) fixed; 
+  background: url(../img/sift/sift_cover.png) fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
