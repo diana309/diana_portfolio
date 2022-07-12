@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../sift_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/main.js" defer></script>
+    <script src="../main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
@@ -23,10 +23,10 @@
 
         <div class="header_wrapper">
             <ul id="menu">
-                <li id="projects_link"><a href="/index.html#projects">Projects</a></li>
-                <li><a href="/resume.html">Resume</a></li>
-                <li id="contact_link"><a href="/index.html#contact">Contact</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li id="projects_link"><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li id="contact_link"><a href="../index.html#contact">Contact</a></li>
+                <li><a href="../about.html">About</a></li>
             </ul>
 
             <nav>
@@ -83,7 +83,7 @@
         </section>
         <section class="section_wrapper sections_wrapper_process">
             <p>In this project we followed human-centered design process starting from primary and secondary research. We used Miso and InVision for brainstorming our ideas, analyzing the data gathered the from the research and locking the features of the application. </p>
-            <img class="process" src="../img/sift/sift_process.png" alt="process">
+            <div class="grey_container"><img class="process" src="../img/sift/sift_process.png" alt="process"></div>
         </section>
     </div>
 
@@ -103,14 +103,14 @@
         </section>
     </div>
     <div class="sift_block_main_wrapper">
+        <h2>Research</h2>
         <section class="section_wrapper">
-            <h2>Research</h2>
-            <p>People do not know how to recycle their waste correctly, what can be recycled or what to do with it.</p>
-            <p>" One of the biggest challenges for recycling programs is dealing with the garbage or other non-recyclable materials that end up in the system." -CBC News</p>
+            <p>People do not know how to recycle their waste correctly, what can be recycled or what to do with it.</p><br>
+            <p>" One of the biggest challenges for recycling programs is dealing with the garbage or other non-recyclable materials that end up in the system." -CBC News</p><br>
             <p>After conducting secondary research and  a survey our team found out that 70% of people are not sure how to recycle most of their garbage and this is why they put everything in general waste.</p>
         </section>
         <section class="section_wrapper">
-            <div class="grey_container">
+            <div class="grey_container grey_container_research">
                 <img class="research" src="../img/sift/sift_research.png" alt="research">
                 <p class="research_link"></p><li id="research_link"><a href="http://www.metrovancouver.org/services/solid-waste/SolidWastePublications/2018_Annual_Recycling_and_Solid_Waste_Management_Summary.pdf">Image Source: Metrovancouver.org</a></li></p>
             </div>
@@ -124,7 +124,7 @@
             <div class="features_container">
                 <img src="../img/sift/sift_feature_scan.png" alt="icon for search">
                 <h3>Scan Objects</h3>
-                <p>You can scan an object with your camera, the application can identify different materials and will tell you how to recycle them correctly.</p>
+                <p>Scan an object with your camera, the application will identify different materials and tell you how to recycle them.</p>
             </div>
             <div class="features_container">
                 <img src="../img/sift/sift_feature_center.png" alt="icon for centers">
@@ -151,7 +151,7 @@
             </div>
         </section>
     </div>
-    <div class="sift_block_main_wrapper">
+    <div class="sift_block_main_wrapper" id="personas_wrapper">
         <h2>Perosnas</h2>
         <section class="section_wrapper_personas">
             <img src="../img/sift/sift_persona_kathy.png" alt="persona">
@@ -162,7 +162,7 @@
     <div class="sift_block_main_wrapper user_flow">
         <h2>User Flow</h2>
         <img src="../img/sift/sift_user_flow.png" alt="user flow">
-        <section class="section_wrapper">
+        <section class="section_wrapper section_wrapper_text">
             <p>For the project scope we had 4 main features: serach by object name (by using open sourse API), search by location (using google maps), scan by object (trained our own image recognition model) and profile where users can earn badges and earn points for recycling correctly.</p>
             <p>We wanted the application to be engaging and intuitive to use, which is why on every page there was a call-to-action button to the next feature for the user to try out and see if it is more convenient for them.</p>
         </section>
@@ -361,7 +361,9 @@
             <img src="../img/sift/sift_promo_handout.png" alt="promo material">
         </div>
     </div>
-
+    <div class="figma_prototype">
+        <iframe style="border: 1px solid rgba(155, 155, 155, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGYSzGZ8Q9foOYb7X5lriuj%2Fdiana_malynovska%3Fnode-id%3D301%253A1354%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D103%253A324" allowfullscreen></iframe>
+    </div>
     <div class="sift_block_main_wrapper future_r_map">
         <h2>Future RoadMap</h2>
         <section class="section_wrapper">
@@ -384,12 +386,11 @@
     </div>
 
 </div>
-
-    <section class="see_other_projects">
+   
+<section class="see_other_projects">
         <h2>See Other Projects</h2>
         <div class="project_links">
 
-            
             <div class="project_main_wrapper"> 
                 <li><a href="vita.html">
                     <div class="project_wrapper">
@@ -420,7 +421,7 @@
             <div class="project_main_wrapper" id="ux_display_none">
                 <li><a href="ux.html">
                     <div class="project_wrapper">
-                        <img src="..s/img/ux_puls.png" alt="phone mockup">
+                        <img src="../img/ux_puls.png" alt="phone mockup">
                     </div>
 
                     <div class="project_text_wrapper">
