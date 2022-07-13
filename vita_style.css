@@ -1,6 +1,6 @@
 
 .sift .cover{
-    background: url(/img/vita/vita_cover.png) fixed center; 
+    background: url(img/vita/vita_cover.png) fixed center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
