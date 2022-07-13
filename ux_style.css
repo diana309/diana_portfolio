@@ -15,6 +15,11 @@
   body{
     background-color: white;
   }
+
+ .bullet{
+    list-style:disc;
+    
+  }
   
   img{
     width: 100%;
