@@ -1,32 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a85c5c3a8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../ux_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js" defer></script>
+    <script src="../main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
- 
-    <title>UX Project</title>
+   
+    <title>Diana Malynovska Portfolio</title>
 
 </head>
-<body>
-    <header>
-        <nav>
-    
-        </nav>
+
+<body id="body">
+
+    <header class="header">
+
+        <div class="header_wrapper">
+            <ul id="menu">
+                <li id="projects_link"><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li id="contact_link"><a href="../index.html#contact">Contact</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+
+            <nav>
+                <a href="../index.html"><div class="logo"><img src="../img/logo.svg" alt="logo"></div></a>
+                <button id="menu_button"><i class="fa-solid fa-bars fa-2x"></i></button>
+            </nav>
+        </div>
+        
     </header>
-    <main>
 
-    </main>
+<main class="sift">
+<div class="cover"> </div>
 
-    <footer>
-        <div><p>Diana Malynovska  © 2022 All Rights Reserved.</p></div>
+<div class="sift_margins">
+
+    <div class="about_main_wrapper">
+
+        <div class="sift_about_wrapper">
+            <h1 class="sift_h1">Brightspace Pulse</h1>
+            <h3>Case Study - UX Research and Redesign</h3>
+            <p>Brightspace Pulse is a mobile app for students that can help them stay connected and on track with their courses. It gives one easy view of course calendars, readings, assignments, evaluations, grades, and news.</p>
+
+            <h3>Project information</h3>
+            <div class="project_info_wrapper">
+                <p class="bold">Duration:</p>
+                <p>4 weeks</p>
+                <p class="bold">My role:</p>
+                <p>UX Designer/Researcher</p>
+                <p class="bold">Team size:</p>
+                <p>Solo Designer</p>
+                <p class="bold">Platform:</p>
+                <p>Mobile Application</p>
+            </div>
+        </div>
+        <div><img src="../img/ux/ux_about.png" alt="phone mockup"></div>
+
+    </div>
+
+    <div class="section_line"></div>
+
+    <div class="the_problem_solution_wrapper">
+            <div class="small_wrapper_2">
+                <h2>Redesign Challenge</h2>
+                <p>An UX design study is a very effective tool for showing an alternative approach to an existing application. I will analyze an existing iOS mobile application and suggest some improvements to enhance the user experience. Initially, I will lay out an existing flow, and then redesign it. The constraints that I have is that I can not remove any features of the application.</p>
+            </div>
+            <div class="small_wrapper_2">
+                <h2>The Application Information</h2>
+                <p>Brightspace Pulse application has two parts. The first one is inside the application but with limited functionality. The students can check the notifications, view their grades, see upcoming deadlines, but they can’t upload assignments . In order to view the whole application the user will have to click on “Launch Langara Home Page” and there they will be taken to another page that looks like the desktop version.</p>
+            </div>
+            <div class="small_wrapper_2">
+                <h2>User Analyse</h2>
+                <p>Due to time constraints, it was difficult to conduct actual user research and gain access to user data, so I relied on AppStore feedback.</p>
+                <p>Pain Points: </p>
+                <li class="bullet">Geo-location functionality to suggest nearby sports clubs/courts</li>
+                <li class="bullet">Messenger functionality to chat with registered players</li>
+                <li class="bullet">Unique design and branding for the app</li>
+                <li class="bullet">WordPress Promotional website</li>
+            </div>
+
+            <div class="small_wrapper_2 img_wrapper">
+                <img src="../img/ux/ux_reviews.png" alt="reviews">
+            </div>
+        </div>
+
+        <div class="flow">
+                <h2>Original User Flow</h2>
+                <img src="../img/ux/ux_user_flow_old.png" alt="user flow">
+        </div>
+        <div class="flow">
+            <h2>Updated User Flow</h2>
+            <img src="../img/ux/ux_user_flow_new.png" alt="user flow">
+        </div>
+        <div class="desctiotion">
+            <div class="tex_wrapper">
+                <p>1. Removed an extra step for accessing settings.The user had to click on a box first, from there they will see the current account, an option to add another account and the option to go to settings All of these options can be shown on the same page to have less steps for the users.</p> 
+                <p>2. In the original version there are three buttons at the bottom navigation (Upcoming, Courses and Notifications). At the top there is also a box (that is meant to represent the college logo). However that logo is a link to settings, it is confusing for the user. A better way would be to add a settings icon to the footer nav, and keep the logo img at the top.</p>
+            </div>
+            <div class="tex_wrapper">
+                <p>3. In the courses page there are two buttons for opening “Langara College Homepage”, that opens the homepage that looks like a desktop version. Just having one button at the top is enough as it is very confusing for the user which one to click.</p>
+                <p>4. In the original version the unpin button was displayed next  to More Options Button (where you can also find unpin). From personal experience students do not want to unpin courses that often so there is no need to put this option twice and also on the top user flow hierarchy. I have removed the Unpin option from the Single Course and just kept it in More Options.</p>
+            </div>
+
+        </div>
+
+        <div class="explanation_wrapper">
+            <h2>Settings - Updated</h2>
+                <div class="img_wrapper_2">
+                    <img src="../img/ux/ux_settings_old.png" alt="user flow">
+                    <img src="../img/ux/ux_settings_screen_shot.png" alt="screenshot">  
+                </div>      
+        </div>
+
+        <div class="settings_wrapper">
+            <h2>Settings - Updated</h2>
+                <div class="img_wrapper_ux">
+                    <img src="../img/ux/ux_settings_new.png" alt="user flow">
+                    <img src="../img/ux/ux_settings_screen_1.png" alt="screenshot">
+                    <img src="../img/ux/ux_settings_screen_2.png" alt="screenshot">
+                    <img src="../img/ux/ux_settings_screen_4.png" alt="screenshot">
+                </div>
+        </div>
+
+        <div class="work_in_p">
+            <h2>Work in process...</h2>
+            <img src="../img/ux/ux_work_in_process.png" alt="work in process">
+        </div>
+
+
+      
+
+</div>
+   
+<section class="see_other_projects">
+        <h2>See Other Projects</h2>
+        <div class="project_links">
+
+            <div class="project_main_wrapper"> 
+                <li><a href="vita.html">
+                    <div class="project_wrapper">
+                        <img src="../img/vita.png" alt="phone mockup">
+                    </div>
+                    <div class="project_text_wrapper">
+                        <h4>Vita</h4> 
+                    </div>
+                </a></li>
+            </div>
+
+            <div class="project_main_wrapper" id="play_day_display_none">
+                <li><a href="playday.html">
+                    <div class="project_wrapper">
+                    <img src="../img/playday.png" alt="phone mockup">
+                    </div>
+                    <div class="project_text_wrapper">  
+                        <h4>PlayDay</h4> 
+                    </div>
+                </a></li>
+            </div>
+
+            <div class="project_main_wrapper" id="ux_display_none">
+                <li><a href="sift.html">
+                    <div class="project_wrapper">
+                        <img src="../img/sift.png" alt="phone mockup">
+                    </div>
+                    <div class="project_text_wrapper">
+                        <h4>Sift</h4>
+                    </div>
+                </a></li>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+<footer>
+    <div class="footer_wrapper">
+        <div class="social_links_wrapper">
+            <a href="https://github.com/diana309" atl="Github"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/malynovska-diana/" atl="Linkedin"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            <a href="https://www.behance.net/dianamalynovska1" atl="Behance"><i class="fa-brands fa-behance fa-lg"></i></a>
+        </div>
+        <div class="rights_reserved">
+             <p>Proudly Coded & Designed by Diana Malynovska - © 2022 All rights reserved</p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
-    </footer>
-
 </body>
-</html>
+</html> 
