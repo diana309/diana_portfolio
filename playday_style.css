@@ -1,0 +1,383 @@
+.sift .cover{
+    background: url(../img/playday/playday_court.png) fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+  
+  
+  /********** Phone Screen Strat **********/
+
+  body{
+    background-color: white;
+  }
+  
+  img{
+    width: 100%;
+    height: auto;
+  }
+  
+  main.sift{
+    margin: 0px;
+    background-color: white;
+  }
+  
+  .sift h1, h2{
+    color: #001465;
+  }
+  
+  .sift h2{
+    font-weight: 600;
+  }
+  
+  .sift_margins{
+    margin: 10px;
+  }
+  
+  .sift_h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .project_info_wrapper{
+    display: grid;
+    grid-template-columns: 80px 2fr;
+    max-width: 500px;
+    padding-bottom: 20px;
+  }
+  
+  .bold{
+    font-weight: 600;
+  }
+  
+  .sift h3{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .section_line{
+    border: 1px solid rgb(220, 220, 220);
+    margin: 50px 0 20px 0;
+    border-radius: 100px;
+  }
+  
+  .section_line_dotted{
+    border: 1px dashed rgb(220, 220, 220);
+      margin: 50px 0 20px 0;
+      border-radius: 100px;
+  }
+  
+  h2{
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  
+                  .process, .research, .typo_img, .logo_img, .color_img, .ui, .system_ar, .vide_container, .future_img, .img_padding{
+                    padding-top: 20px;
+                  }
+  
+  
+  
+  .research_link{
+    padding-top: 10px;
+  }
+  
+  #research_link {
+    text-decoration: underline !important;
+    text-align: center;
+  }
+  #research_link a{
+    color: #003965;
+  }
+
+  /* project delivery, my role start */
+  .bullet{
+    list-style:disc; 
+    padding: 5px;
+  }
+
+  /* project delivery, my role end */
+
+
+  /* features start */
+  
+  .features_container{
+    background-color: #ffffff;
+    border: 2px solid #E7EAF8;
+  }
+  
+  .features_container h3{
+    color: #164989;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .features_container img{
+    width: 40%;
+    margin: 20px auto 0px auto;
+    display: block;
+  }
+  
+  .features_container p{
+  margin: 0 20px 20px 20px;
+  text-align: center;
+  }
+  
+  .section_wrapper_features{
+    display: grid;
+    grid-gap: 10px;
+  }
+  /* features end */
+  
+ 
+  /* wireframes start */
+  .section_wrapper_wireframes_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-bottom: 20px;
+    align-items: start;
+  }
+  
+  .section_wrapper_wireframes_2 img{
+    border: 1px solid rgb(235, 235, 235);
+  }
+  
+  .section_wrapper_wireframes_2 div li, .section_wrapper_wireframes_2 div li a{
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+  }
+  
+  .text_decrtiption_wrapper{
+    display: grid;
+    grid-gap: 10px;
+  }
+
+  /* wireframes end */
+
+  /* prototype start */
+
+  .bg_figma{
+      background-color: whitesmoke;
+      margin-bottom: 30px;
+  }
+
+  .fig_img{
+      width: 60%;
+      display: block;
+      margin: 0 auto;
+      padding: 20px 0;
+  }
+
+  /* prototype end */
+
+   /* see other projects start */
+  
+  .see_other_projects{
+    background-color: #EEEEFF;
+    margin-top: 40px;
+    }
+    
+    .see_other_projects h2{
+      margin: 10px 10px 0 10px;
+    }
+    .project_links{
+      padding: 10px;
+      padding-bottom: 20px;
+    }
+    
+    #play_day_display_none, #ux_display_none {
+      display: none;
+    }
+     
+    /* see other projects end */
+    
+  /********** Phone Screen End  **********/
+  
+  
+  /******************************* TABLET START *******************************/
+  
+  @media only screen and (min-width: 750px) {
+    p{
+      line-height: 1.8em;
+    }
+  
+    .process, .research, .typo_img, .color_img, .ui, .system_ar, .vide_container, .future_img{
+      padding-top: 0px;
+    }
+
+    .sift_margins{
+      margin: 10px 40px;
+    }
+  
+    h2{
+      margin-top: 30px;
+    }
+
+    /* about start */
+
+    .about_main_wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 35px;
+      align-items: center;
+      margin-top: 60px;
+    }
+    
+    .about_main_wrapper h1{
+      margin-top: 0;
+    }
+  
+    /* about end */
+
+  /* the problem and solution wrapper start */
+
+  .the_problem_solution_wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 35px;
+  }
+
+   /* the problem and solution wrapper end */
+  
+    /* comp research start */
+
+    .playday_research_comp_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 35px;
+        align-items: center;
+        margin-top: 60px;
+     }
+  
+      .sift_research_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 35px;
+      }
+  
+      .sift_research_wrapper h2{
+        grid-column: 1 / 3;
+      }
+  
+    /* comp research end */
+
+    /* primary and secondary research start  */
+    
+    .playday_p_s_research_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 35px;
+    }
+
+    /* primary and secondary research end  */
+  
+     /* features start */
+  
+     .section_wrapper_features{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: stretch;
+      gap: 10px;
+    }
+
+    .features_container{
+        display: grid;
+    }
+
+    .features_container h3{
+        font-size: 21px;
+    }
+    .features_container p{
+        text-align: left;
+        font-size: 15px;
+    }
+
+    /* features end */
+   
+    /* wireframes start */
+    .section_wrapper_wireframes_4{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+    }
+  
+  .section_wrapper_wireframes_2{
+    grid-gap: 35px;
+  }
+  
+  .text_decrtiption_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+  }
+    /* wireframes end  */
+  
+    /* user_flow start */
+   
+    .border_user_flow{
+        background-color: whitesmoke;
+        padding: 20px 80px;
+    }
+
+    /* user_flow end */
+
+    /* logo start  */
+
+    .playday_block_main_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+
+    /* logo end  */
+
+
+    /* protoype start */
+
+    .fig_img{
+        width: 180px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+
+    /* protoype end */
+  
+    
+  
+  }
+  
+  @media only screen and (min-width: 1030px) {
+  
+    .sift_margins{
+     max-width: 1020px;
+     margin: auto;
+   }
+  
+   #play_day_display_none, #ux_display_none {
+    display: block;
+    }
+  
+    .project_links{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 35px;
+      max-width: 1020px;
+      margin: auto;
+    }
+  
+    .see_other_projects h2{
+      margin: 30px auto;
+      max-width: 1020px;
+    }
+  
+  }
+  
+  
