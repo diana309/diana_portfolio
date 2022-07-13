@@ -1,0 +1,247 @@
+.sift .cover{
+    background: url(img/ux/ux_cover.png) fixed no-repeat; 
+    -webkit-background-size: 900px;
+    -moz-background-size: 900px;
+    -o-background-size: 900px;
+    background-size: 900px;
+    width: 100%;
+    height: 250px;
+    background-size: 900px;
+  }
+  
+  
+  /********** Phone Screen Strat **********/
+
+  body{
+    background-color: white;
+  }
+  
+  img{
+    width: 100%;
+    height: auto;
+  }
+  
+  main.sift{
+    margin: 0px;
+    background-color: white;
+  }
+  
+  .sift h1, h2{
+    color: #373737;
+  }
+  
+  .sift h2{
+    font-weight: 600;
+  }
+  
+  .sift_margins{
+    margin: 10px;
+  }
+  
+  .sift_h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .project_info_wrapper{
+    display: grid;
+    grid-template-columns: 80px 2fr;
+    max-width: 500px;
+    padding-bottom: 20px;
+  }
+  
+  .bold{
+    font-weight: 600;
+  }
+  
+  .sift h3{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .section_line{
+    border: 1px solid rgb(220, 220, 220);
+    margin: 50px 0 20px 0;
+    border-radius: 100px;
+  }
+  
+  .section_line_dotted{
+    border: 1px dashed rgb(220, 220, 220);
+      margin: 50px 0 20px 0;
+      border-radius: 100px;
+  }
+  
+  h2{
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+
+  .tex_wrapper{
+    display: grid;
+    grid-gap: 10px;
+  }
+
+  /* settings start */
+  .img_wrapper_2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+  }
+
+  .img_wrapper_ux{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  /* settings end */
+
+  /* work in progress start */
+
+  .work_in_p{
+    text-align: center;
+    margin: 50px 10px;
+  }
+  /* work in progress end */
+
+   /* see other projects start */
+  
+  .see_other_projects{
+    background-color: #EEEEFF;
+    margin-top: 40px;
+    }
+    
+    .see_other_projects h2{
+      margin: 10px 10px 0 10px;
+    }
+    .project_links{
+      padding: 10px;
+      padding-bottom: 20px;
+    }
+    
+    #play_day_display_none, #ux_display_none {
+      display: none;
+    }
+     
+    /* see other projects end */
+    
+  /********** Phone Screen End  **********/
+  
+  
+  /******************************* TABLET START *******************************/
+  
+  @media only screen and (min-width: 750px) {
+
+    .sift .cover{
+        background: url(img/ux/ux_cover.png) fixed no-repeat; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+      }
+
+    /* work in progress start */
+
+    .work_in_p{
+      text-align: center;
+      margin: 100px auto 200px auto;
+      width: 400px;
+    }
+      /* work in progress end */
+
+
+    p{
+      line-height: 1.8em;
+    }
+  
+    .process, .research, .typo_img, .color_img, .ui, .system_ar, .vide_container, .future_img{
+      padding-top: 0px;
+    }
+
+    .sift_margins{
+      margin: 10px 40px;
+    }
+  
+    h2{
+      margin-top: 30px;
+    }
+
+    /* about start */
+
+    .about_main_wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 35px;
+      align-items: center;
+      margin-top: 60px;
+    }
+
+    .img_wrapper{
+      display: grid;
+      align-items: end;
+
+    }
+    
+    .about_main_wrapper h1{
+      margin-top: 0;
+    }
+  
+    /* about end */
+
+    /* challange start */
+
+    .the_problem_solution_wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 35px;
+    }
+
+     /* challange end */
+
+     /* description start */
+     
+     .desctiotion{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 35px;
+        margin-top: 20px;
+     }
+
+     /* description end */
+
+    /*  */
+  
+  
+  }
+  
+  @media only screen and (min-width: 1030px) {
+  
+    .sift_margins{
+     max-width: 1020px;
+     margin: auto;
+   }
+  
+   #play_day_display_none, #ux_display_none {
+    display: block;
+    }
+  
+    .project_links{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 35px;
+      max-width: 1020px;
+      margin: auto;
+    }
+  
+    .see_other_projects h2{
+      margin: 30px auto;
+      max-width: 1020px;
+    }
+  
+  }
+  
+  
