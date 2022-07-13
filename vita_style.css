@@ -1,13 +1,13 @@
 
 .sift .cover{
-  background: url(img/vita/vita_cover.png) no-repeat; 
+  background: url(img/vita/vita_cover.png) fixed no-repeat; 
   -webkit-background-size: 900px;
   -moz-background-size: 900px;
   -o-background-size: 900px;
   background-size: 900px;
   width: 100%;
   height: 250px;
-  background-size: 800px;
+  background-size: 900px;
 }
   
   
