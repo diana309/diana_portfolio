@@ -362,6 +362,12 @@
 
 
     /* protoype end */
+
+    .project_half{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 35px;
+    }
   
     
   

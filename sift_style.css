@@ -94,6 +94,16 @@ h2{
   color: #003965;
 }
 
+#video_sift_diana{
+  color: #02589a;
+  font-weight: 700;
+}
+
+#video_sift_diana:hover{
+  color: #0b75c6;
+  font-weight: 700;
+}
+
 /* features start */
 
 .features_container{
@@ -200,6 +210,8 @@ margin: 0 20px 20px 20px;
   }
    
   /* see other projects end */
+
+
   
 /********** Phone Screen End  **********/
 
