@@ -12,6 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#fffff">
+    <meta name="theme-color" content="#fffff">
    
     <title>Diana Malynovska Portfolio</title>
 
@@ -24,7 +32,7 @@
         <div class="header_wrapper">
             <ul id="menu">
                 <li id="projects_link"><a href="../index.html#projects">Projects</a></li>
-                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../resume.html" target=”blank”>Resume</a></li>
                 <li id="contact_link"><a href="../index.html#contact">Contact</a></li>
                 <li><a href="../about.html">About</a></li>
             </ul>
@@ -73,14 +81,14 @@
         </section>
         <section class="section_wrapper">
             <h2>My Role</h2>
-            <p>In this project, I was the project manager and a UX designer. I was responsible for planning weekly sprints, conducting primary and secondary research, analyzing data gathered from surveys, creating personas, designing user flow, and making wireframes for the object recognition feature and home page. I was also in change of creating <a href="#video_sift">promotional video </a>and marketing assets.</p>
+            <p>In this project, I was the project manager and a UX designer. I was responsible for planning weekly sprints, conducting primary and secondary research, analyzing data gathered from surveys, creating personas, designing user flow, and making wireframes for the object recognition feature and home page. I was also in change of creating <a href="#video_sift" id="video_sift_diana" >promotional video </a>and marketing assets.</p>
         </section>
     </div>
 
     <div class=" the_process_wrapper">
         <h2 class="h2_process">The Process</h2>
         <section class="section_wrapper sections_wrapper_process">
-            <p>In this project we followed human-centered design process starting from primary and secondary research. We used Miro and InVision for brainstorming our ideas, analyzing the data gathered the from the research and locking the features of the application. </p>
+            <p>In this project we followed a human-centered design process starting from primary and secondary research. We used Miro and InVision for brainstorming our ideas, analyzing the data gathered from the research and locking the features of the application.</p>
         </section>
         <section class="section_wrapper sections_wrapper_process">
             <div><img class="process" src="../img/sift/sift_process.png" alt="process"></div>
@@ -116,6 +124,9 @@
             </div>
         </section>
     </div>
+
+    <div class="section_line_dotted"></div>
+
     <div class="sift_block_main_wrapper_features">
 
         <section class="section_wrapper_features_h2">
@@ -154,9 +165,8 @@
         </section>
     </div>
     <div class="sift_personas_wrapper" id="personas_wrapper">
-        <h2>Perosnas</h2>
+        <h2>Personas</h2>
         <section class="section_wrapper_personas">
-            <img src="../img/sift/sift_persona_kathy.png" alt="persona">
             <img src="../img/sift/sift_persona_lucas.png" alt="persona">
             <img src="../img/sift/sift_persona_maya.png" alt="persona">
         </section>
@@ -179,13 +189,13 @@
                     <img src="../img/sift/wf/sift_login_wf.png" alt="log in screen">
                 </div>
                 <div>
-                    <li id="home_wf"><a href="#wf_text">2. Home</a></li>
+                    <li id="home_wf">2. Home</li>
                     <img src="../img/sift/wf/sift_home_wf.png" alt="home screen">
                 </div>
             </section>
             <section class="section_wrapper_wireframes_2">
                 <div>
-                    <li id="search_item"><a href="#wf_text">3. Search by itme name</a></li>
+                    <li id="search_item">3. Search by itme name</li>
                     <img src="../img/sift/wf/sift_search_wf.png" alt="search screen">
                 </div>
                 <div>
@@ -198,7 +208,7 @@
         <div class="section_wrapper_wireframes_4">
             <section class="section_wrapper_wireframes_2">
                 <div>
-                    <li id="result_not_found"><a href="#wf_text">5. Camera result not found</a></li>
+                    <li id="result_not_found">5. Camera result not found</li>
                     <img src="../img/sift/wf/sift_camera_wf.png" alt="camera screen">
                 </div>
                 <div>
@@ -218,11 +228,13 @@
             </section>
         </div>
         <div class="text_decrtiption_wrapper" id="wf_text">
-            <p><a href="#home_wf">Home screen</a> is where the user will land after signing up for the application. Welcome to Sift section has two call to action buttons for the scan and search feature. For the monetization purposes there is a promotion section where environmentally friendly businesses can request to place an advertisement. Did you know section will display fun facts to educate the users about recycling. </p>
-            <p><a href="#search_item">Search by item name</a> offers two ways of searching: by popular search or by the name of an item: eg. Avalon milk bottle. In the next face we want to add barcode recognition. <a href="#result_not_found">Camera results not found </a> page will be shown when the object recognition feature will not have a result to show, in that case we will have CTA for the search by word feature.</p>
+            <p><b>Home screen</b> is where the user will land after signing up for the application. <b>Welcome to Sift section</b> has two call to action buttons for the scan and search feature. For the <b>monetization purposes</b> there is a promotion section where environmentally friendly businesses can request to place an advertisement. Did you know section will display fun facts to educate the users about recycling. </p>
+            <p>Search by item name offers <b>two ways of searching</b>: by popular search or by the name of an item: eg. Avalon milk bottle. In the next face we want to add barcode recognition. <b>Camera results not found </b>page will be shown when the object recognition feature will not have a result to show, in that case we will have CTA for the search by word feature.</p>
         </div>
 
     </div>
+
+   
 
     <div class="high_fidelity_screens">
         <h2>High Fidelity Screens</h2>
@@ -233,17 +245,17 @@
                     <img src="../img/sift/hf/sift_home_hf.png" alt="home screen">
                 </div>
                 <div>
-                    <li>2. Search by itme name</li>
+                    <li>2. Search by item name</li>
                     <img src="../img/sift/hf/sift_search_hf.png" alt="search screen">
                 </div>
             </section>
             <section class="section_wrapper_wireframes_2 section_wrapper_high_fidelity_2">
                 <div>
-                    <li id="results_organic"><a href="#hf_text">3. Result for organic </a></li>
+                    <li id="results_organic">3. Result for organic</li>
                     <img src="../img/sift/hf/sift_organic_hf.png" alt="search results screen">
                 </div>
                 <div>
-                    <li id="results_plastic"><a href="#hf_text">4. Result for the plastic item</a></li>
+                    <li id="results_plastic">4. Result for the plastic item</li>
                     <img src="../img/sift/hf/sift_plastic_hf.png" alt="plastic screen">
                 </div>
             </section>
@@ -252,7 +264,7 @@
         <div class="section_wrapper_wireframes_4 section_wrapper_high_fidelity_4">
             <section class="section_wrapper_wireframes_2 section_wrapper_high_fidelity_2">
                 <div>
-                    <li id="complex_item"><a href="#hf_text">5. Complex item result</a></li>
+                    <li id="complex_item">5. Complex item result</li>
                     <img src="../img/sift/hf/sift_tim_hf.png" alt="result screen">
                 </div>
                 <div>
@@ -262,7 +274,7 @@
             </section>
             <section class="section_wrapper_wireframes_2 section_wrapper_high_fidelity_2">
                 <div>
-                    <li id="new_user_profile"><a href="#hf_text">7. New user pofile</a></li>
+                    <li id="new_user_profile">7. New user pofile</li>
                     <img src="../img/sift/hf/sift_profile_new_hf.png" alt=" profile screen">
                 </div>
                 <div>
@@ -274,11 +286,11 @@
         <div class="section_wrapper_wireframes_4 section_wrapper_high_fidelity_4">
             <section class="section_wrapper_wireframes_2 section_wrapper_high_fidelity_2">
                 <div>
-                    <li id="camera_not_found"> <a href="#hf_text">9. Camera result not found</a></li>
+                    <li id="camera_not_found">9. Camera result not found</li>
                     <img src="../img/sift/hf/sift_oops_hf.png" alt=" result not found">
                 </div>
                 <div>
-                    <li id="rec_locations"><a href="#hf_text">10. Recycling Locations</a></li>
+                    <li id="rec_locations">10. Recycling Locations</li>
                     <img src="../img/sift/hf/sift_locations_hf.png" alt="locations screen">
                 </div>
             </section>
@@ -294,10 +306,12 @@
             </section>
         </div>
         <div class="text_decrtiption_wrapper" id="hf_text">
-            <p><a href="#results_organic"> Result for organic </a> does not have an option to find a recycle center because there is no place where you can bring your organic waste in person. This is why we have a link to “how to create a compost bin” article to educate the users about organic waste and how to dispose of it correctly. <a href="#results_plastic">Result for plastic item</a> page has two scenarios, either the user can find a blue bin nearby or they can take their plastic items to a recycling station. As we can not predict how the users will take a picture, there is a <a href="#camera_not_found">camera result not found</a> screen that has some tips on how to take a better picture.</p>
-            <p><a href="#complex_item">Complex item result</a> shows a result for an object that has more than one material. We trained our mode for the Tim Hortons cup by uploading around 200 pictures of this cup from different perspectives and with different lighting to train the object recognition mode. <a href="#new_user_profile">New user profile</a> page shows how the profile page will look for a new user who did not earn any badges and scanned any objects. <a href="#rec_locations">The Recycling Centres Locations</a> screen uses geolocation to show nearby recycling centers. In cases when the geolocation is not working the user can input their address manually to search for the nearby recycling centre. </p>
+            <p><b> Result for organic </b>does not have an option to find a recycling center because there is no place where you can bring your organic waste in person. This is why we have a link to “how to create a compost bin” article to educate the users about organic waste and how to dispose of it correctly. <b>Result for plastic item</b> page has two scenarios, either the user can find a blue bin nearby or they can take their plastic items to a recycling station. As we can not predict how the users will take a picture, there is a <b>camera result not found</b> screen that has some tips on how to take a better picture.</p>
+            <p>Complex item result shows a result for an object that has <b>more than one material</b>. We trained our mode for the Tim Hortons cup by uploading around <b>200 pictures</b> of this cup from different perspectives and with different lighting to train the <b>object recognition model</b>. New user profile page shows how the profile page will look for a new user who did not earn any badges and scanned any objects. The Recycling Centres Locations screen uses geolocation to show nearby recycling centers. In cases when the geolocation is not working the user can input their address manually to search for the nearby recycling centre. </p>
         </div>
     </div>
+
+    <div class="section_line_dotted"></div>
 
     <div class="sift_block_main_wrapper logo_and_typo_wrapper">
         <section class="section_wrapper">
