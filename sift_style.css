@@ -94,13 +94,17 @@ h2{
   color: #003965;
 }
 
+#research_link a:hover{
+  color: #0075cf;
+}
+
 #video_sift_diana{
-  color: #02589a;
+  color: #0b75c6;
   font-weight: 700;
 }
 
 #video_sift_diana:hover{
-  color: #0b75c6;
+  color: #728cff;
   font-weight: 700;
 }
 
@@ -150,6 +154,7 @@ margin: 0 20px 20px 20px;
 
 .section_wrapper_wireframes_2 img{
   border: 1px solid rgb(235, 235, 235);
+  margin-top: 4px;
 }
 
 .section_wrapper_wireframes_2 div li a {
@@ -169,6 +174,14 @@ margin: 0 20px 20px 20px;
   font-weight: 600;
 }
 /* wireframes end */
+
+/* high fidelity screens start */
+
+.high_fidelity_screens img{
+  border-radius: 15px;
+}
+
+/* high fidelity screens end */
 
 /* illusstrations start */
 
@@ -315,7 +328,7 @@ margin: 0 20px 20px 20px;
 
   .section_wrapper_personas{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 35px;
   }
 
