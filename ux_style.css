@@ -243,8 +243,10 @@
     }
   
     .see_other_projects h2{
-      margin: 30px auto;
       max-width: 1020px;
+      margin: 40px auto 0px auto;
+      max-width: 1020px;
+      padding-top: 40px;
     }
   
   }

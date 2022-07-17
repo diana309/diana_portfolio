@@ -6,13 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://kit.fontawesome.com/a85c5c3a8d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
-    <!-- <link rel="stylesheet" href="../sift_style.css"> -->
     <link rel="stylesheet" href="../vita_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#fffff">
+    <meta name="theme-color" content="#fffff">
    
     <title>Diana Malynovska Portfolio</title>
 
@@ -25,7 +32,7 @@
         <div class="header_wrapper">
             <ul id="menu">
                 <li id="projects_link"><a href="../index.html#projects">Projects</a></li>
-                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../resume.html" target=”blank”>Resume</a></li>
                 <li id="contact_link"><a href="../index.html#contact">Contact</a></li>
                 <li><a href="../about.html">About</a></li>
             </ul>
@@ -169,7 +176,7 @@
         <div class="text_wf">
             <div class="text_wrapper">
                 <h3>Nutrient Calculator Results</h3>
-                <p>After the user inputs their diet information they will get two charts that will tell them how much of each vitamin and mineral they will need to consume on a daily basis to keep a healthy diet. They can also click on a chart or on the table next to the chart to get 4 suggestions of what foods has a lot of this particular mineral or vitamins (eg. see iron rich food). The user can also select their health concerns in the section below to get even more customized recommendations. Some of the users might not want to share their health concerns this is why we kept this section optional.</p>
+                <p>After the user inputs their diet information they will get two charts that will tell how much of each vitamin and mineral they need to consume daily to keep a healthy diet. They can also click on a chart or on the table next to the chart to get 4 suggestions of foods that have a lot of this particular mineral or vitamins (eg. see iron-rich food). The user can also select health concerns in the section below to get even more customized recommendations. Some of the users might not want to share their health concerns this is why we kept this section optional.</p><br>
                 <p>The challenge was figuring out how we could display the vitamin and mineral results, as the range of numbers was very wide and would not look well on a chart. We have decided to remove vitamins and minerals that had a very small number from the chart but keep it in the table.</p>
             </div>
 
@@ -262,8 +269,41 @@
     </div>
     </section>
 
-
+    <div class="section_line_dotted"></div>
 </div>
+
+<section class="get_in_touch">
+
+    <section class="contact_form_wrapper" id="contact">
+        <div class="container-contact-form">
+
+            <div>
+                <div class="form_text">
+                <h2> Did you enjoy this project? </h2>
+                <h4 id="last_h2">I would love to hear from you! </h4>
+             </div>
+
+            <form action="https://formspree.io/f/xpzbbvyl" method="POST" id="contact-home">
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required="required">
+                </div>
+
+                <div class="form-group" id="messsage">
+                    <label for="massage">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" required="required"></textarea>
+                </div>
+
+                <button type="submit" id="submit-button" class="cta">Submit</button>
+
+            </form>
+        </div>
+        <img src="../img/get_touch_img.png" alt="illustration">
+        </div>
+    </section>
+
+</section>
    
     <section class="see_other_projects">
         <h2>See Other Projects</h2>
